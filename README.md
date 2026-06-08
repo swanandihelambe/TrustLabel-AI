@@ -15,18 +15,28 @@ Build a system that can:
 
 ### Phase 1: Dataset Creation ✅
 
-- Created a labeled dataset of customer support messages
-- Categories:
-  - Billing
-  - Account
-  - Technical
-  - Security
-  - Subscription
+- Created a labeled dataset of 125 customer support messages
+- 5 intent categories
+- Intent, Sentiment, and PII labels
 
-- Labels:
-  - Intent
-  - Sentiment
-  - PII
+### Phase 2: Exploratory Data Analysis (EDA) ✅
+
+Performed:
+
+- Dataset overview and quality checks
+- Missing value analysis
+- Intent distribution analysis
+- Sentiment distribution analysis
+- PII distribution analysis
+- Intent vs Sentiment analysis
+
+Key Findings:
+
+- Dataset contains 125 labeled support messages
+- Intent classes are balanced (25 examples each)
+- Negative sentiment is the most common class
+- Approximately 12% of messages contain PII
+- Security-related messages show the highest negative sentiment
 
 ## Next Steps
 
