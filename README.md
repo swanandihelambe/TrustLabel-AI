@@ -1,6 +1,7 @@
 # TrustLabel AI
 
-An NLP-based project inspired by a Data Labeling job simulation.
+A project inspired by a Data Labeling job simulation. TrustLabel AI — NLP project for customer support ticket classification using Intent, Sentiment, and PII detection with data labeling, preprocessing, and machine learning.
+
 
 ## Objective
 
