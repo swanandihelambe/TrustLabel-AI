@@ -1,6 +1,6 @@
 # TrustLabel AI
 
-A project inspired by a Data Labeling job simulation. TrustLabel AI — NLP project for customer support ticket classification using Intent, Sentiment, and PII detection with data labeling, preprocessing, and machine learning.
+A practical NLP and Machine Learning project inspired by a Data Labeling Analyst job simulation, focused on customer support ticket classification, sentiment analysis, and PII detection.
 
 
 ## Objective
@@ -68,13 +68,79 @@ Processed Tokens:
 * Python
 * Pandas
 * Matplotlib
+* Scikit-learn
 * NLTK
 * Jupyter Notebook
 
+### Phase 4: TF-IDF Feature Engineering ✅
+
+Implemented TF-IDF (Term Frequency–Inverse Document Frequency) to convert customer support messages into machine-learning-ready numerical features.
+
+Completed:
+
+* Converted processed tokens into text format
+* Generated TF-IDF feature vectors
+* Created a feature matrix of 125 messages and 244 unique features
+* Identified the most influential words across the dataset
+
+Key Findings:
+
+* Generated 244 unique text features
+* Frequently occurring support-related terms included:
+
+  * account
+  * update
+  * subscription
+  * email
+  * password
+  * refund
+
+### Phase 5: Intent Classification ✅
+
+Built a machine learning model to automatically classify customer support messages into intent categories.
+
+Completed:
+
+* Split dataset into training and testing sets (80/20)
+* Trained a Multinomial Naive Bayes classifier
+* Generated intent predictions on unseen test data
+* Evaluated model performance using multiple metrics
+
+Results:
+
+* Test Accuracy: 60%
+* Classification Report generated
+* Confusion Matrix generated
+
+Key Insights:
+
+* Billing and Subscription intents achieved the strongest performance
+* Account and Security intents showed overlap due to similar vocabulary patterns
+* The project now supports automatic intent prediction for customer support messages
+
 ## Next Steps
 
-* TF-IDF Feature Engineering
-* Intent Classification Model
 * Sentiment Classification Model
 * PII Detection System
 * Label Review Assistant
+* Streamlit Application Deployment
+
+## Project Status
+
+✅ Phase 1: Dataset Creation
+
+✅ Phase 2: Exploratory Data Analysis (EDA)
+
+✅ Phase 3: NLP Preprocessing
+
+✅ Phase 4: TF-IDF Feature Engineering
+
+✅ Phase 5: Intent Classification
+
+⏳ Phase 6: Sentiment Classification
+
+⏳ Phase 7: PII Detection
+
+⏳ Phase 8: Label Review Assistant
+
+⏳ Phase 9: Streamlit Application
