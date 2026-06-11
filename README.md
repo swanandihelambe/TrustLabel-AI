@@ -2,7 +2,6 @@
 
 A practical NLP and Machine Learning project inspired by a Data Labeling Analyst job simulation, focused on customer support ticket classification, sentiment analysis, and PII detection.
 
-
 ## Objective
 
 Build a system that can:
@@ -26,6 +25,8 @@ Build a system that can:
   * Subscription
 * Added Intent, Sentiment, and PII labels
 
+---
+
 ### Phase 2: Exploratory Data Analysis (EDA) ✅
 
 Performed:
@@ -45,6 +46,8 @@ Key Findings:
 * Approximately 12% of messages contain PII
 * Security-related messages show the highest negative sentiment
 
+---
+
 ### Phase 3: NLP Preprocessing ✅
 
 Implemented a text preprocessing pipeline:
@@ -58,19 +61,14 @@ Implemented a text preprocessing pipeline:
 Example:
 
 Original:
+
 "I was charged twice for my subscription."
 
 Processed Tokens:
+
 ['charged', 'twice', 'subscription']
 
-## Tech Stack
-
-* Python
-* Pandas
-* Matplotlib
-* Scikit-learn
-* NLTK
-* Jupyter Notebook
+---
 
 ### Phase 4: TF-IDF Feature Engineering ✅
 
@@ -95,6 +93,8 @@ Key Findings:
   * password
   * refund
 
+---
+
 ### Phase 5: Intent Classification ✅
 
 Built a machine learning model to automatically classify customer support messages into intent categories.
@@ -104,7 +104,7 @@ Completed:
 * Split dataset into training and testing sets (80/20)
 * Trained a Multinomial Naive Bayes classifier
 * Generated intent predictions on unseen test data
-* Evaluated model performance using multiple metrics
+* Evaluated performance using multiple metrics
 
 Results:
 
@@ -118,12 +118,50 @@ Key Insights:
 * Account and Security intents showed overlap due to similar vocabulary patterns
 * The project now supports automatic intent prediction for customer support messages
 
+---
+
+### Phase 5A: Model Evaluation & Optimization 🔄
+
+Current baseline models have been implemented using Multinomial Naive Bayes.
+
+Current Results:
+
+* Intent Classification Accuracy: 60%
+* Sentiment Classification Accuracy: 56%
+
+Observations:
+
+* Baseline models successfully classify support messages and sentiments.
+* Performance indicates vocabulary overlap between several classes, particularly Account vs Security and Neutral vs Positive sentiments.
+* Additional model experimentation and optimization are planned to improve predictive performance.
+
+Next Steps in Optimization:
+
+* Compare multiple machine learning algorithms
+* Evaluate Logistic Regression and other classifiers
+* Select the best-performing model for deployment
+
+---
+
+## Tech Stack
+
+* Python
+* Pandas
+* Matplotlib
+* Scikit-learn
+* NLTK
+* Jupyter Notebook
+
+---
+
 ## Next Steps
 
-* Sentiment Classification Model
+* Model Comparison & Optimization
 * PII Detection System
 * Label Review Assistant
 * Streamlit Application Deployment
+
+---
 
 ## Project Status
 
@@ -137,10 +175,10 @@ Key Insights:
 
 ✅ Phase 5: Intent Classification
 
-⏳ Phase 6: Sentiment Classification
+🔄 Phase 5A: Model Evaluation & Optimization
 
-⏳ Phase 7: PII Detection
+⏳ Phase 6: PII Detection
 
-⏳ Phase 8: Label Review Assistant
+⏳ Phase 7: Label Review Assistant
 
-⏳ Phase 9: Streamlit Application
+⏳ Phase 8: Streamlit Application
