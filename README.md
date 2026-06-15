@@ -1,139 +1,47 @@
 # TrustLabel AI
 
-An NLP-powered customer support analytics system that automatically classifies customer messages by intent, sentiment, and PII (Personally Identifiable Information).
+TrustLabel AI is an NLP-based customer support analytics system that automatically analyzes customer messages and predicts:
 
-The project was inspired by a Data Labeling Analyst job simulation and focuses on applying Natural Language Processing and Machine Learning techniques to real-world customer support workflows.
+* Intent (Billing, Account, Technical, Security, Subscription)
+* Sentiment (Positive, Neutral, Negative)
+* PII Presence (Yes/No)
+
+The project uses TF-IDF feature engineering and Machine Learning models to automate customer support ticket analysis.
+
+---
+
+## Key Results
+
+| Task                     | Best Model                   |         Result |
+| ------------------------ | ---------------------------- | -------------: |
+| Intent Classification    | Logistic Regression          | 72.8% Accuracy |
+| Sentiment Classification | Linear SVM                   | 91.2% Accuracy |
+| PII Detection            | Balanced Logistic Regression | 98.4% Accuracy |
+
+Dataset Size: **625 labeled customer support messages**
 
 ---
 
 ## Features
 
-### Intent Classification
-
-Classifies customer messages into:
-
-* Billing
-* Account
-* Technical
-* Security
-* Subscription
-
-### Sentiment Analysis
-
-Detects customer sentiment:
-
-* Positive
-* Neutral
-* Negative
-
-### PII Detection
-
-Identifies messages containing personally identifiable information such as:
-
-* Email addresses
-* Phone numbers
-* Sensitive account details
-
----
-
-## Dataset
-
-### Original Dataset
-
-* 125 labeled customer support messages
-
-### Expanded Dataset
-
-* 500 additional labeled messages
-
-### Final Master Dataset
-
-* 625 customer support messages
-* Balanced intent distribution
-* Intent, Sentiment, and PII labels
-
-Schema:
-
-```text
-message
-intent
-sentiment
-pii
-```
+* Intent Classification
+* Sentiment Analysis
+* PII Detection
+* TF-IDF Feature Engineering
+* Multi-model Evaluation and Comparison
+* Exported Models for Deployment
 
 ---
 
 ## Machine Learning Pipeline
 
-### NLP Preprocessing
-
-* Lowercase conversion
-* Text cleaning
-* Punctuation removal
-* Feature preparation
-
-### Feature Engineering
-
-* TF-IDF Vectorization
-
-### Models Evaluated
-
-* Multinomial Naive Bayes
-* Logistic Regression
-* Linear SVM
-
----
-
-## Results
-
-### Intent Classification
-
-| Model               |  Accuracy |
-| ------------------- | --------: |
-| Naive Bayes         |     70.4% |
-| Logistic Regression | **72.8%** |
-| Linear SVM          |     72.0% |
-
-Best Model: **Logistic Regression**
-
----
-
-### Sentiment Classification
-
-| Model               |  Accuracy |
-| ------------------- | --------: |
-| Naive Bayes         |     85.6% |
-| Logistic Regression |     88.8% |
-| Linear SVM          | **91.2%** |
-
-Best Model: **Linear SVM**
-
----
-
-### PII Detection
-
-| Model                        |  Accuracy |
-| ---------------------------- | --------: |
-| Logistic Regression          |     87.2% |
-| Balanced Logistic Regression | **98.4%** |
-
-Additional PII Metrics:
-
-* Precision: 100%
-* Recall: 88%
-
-Best Model: **Balanced Logistic Regression**
-
----
-
-## Key Findings
-
-* Increasing dataset size from 125 to 625 records significantly improved model performance.
-* Logistic Regression achieved the best intent classification performance.
-* Linear SVM achieved the highest sentiment classification accuracy.
-* TF-IDF feature expansion with bigrams did not improve performance.
-* Accuracy alone was misleading for imbalanced PII datasets.
-* Class balancing dramatically improved PII detection quality.
+1. Data Collection and Labeling
+2. Exploratory Data Analysis (EDA)
+3. NLP Preprocessing
+4. TF-IDF Vectorization
+5. Model Training
+6. Model Evaluation
+7. Model Export
 
 ---
 
@@ -148,23 +56,7 @@ trustlabel-ai/
 ├── models/
 ├── notebooks/
 ├── README.md
-├── requirements.txt
-└── .gitignore
-```
-
----
-
-## Saved Model Artifacts
-
-```text
-intent_model.pkl
-intent_vectorizer.pkl
-
-sentiment_model.pkl
-sentiment_vectorizer.pkl
-
-pii_model.pkl
-pii_vectorizer.pkl
+└── requirements.txt
 ```
 
 ---
@@ -181,11 +73,20 @@ pii_vectorizer.pkl
 
 ---
 
+## Key Learnings
+
+* Increasing dataset size from 125 to 625 records significantly improved performance.
+* Logistic Regression performed best for intent classification.
+* Linear SVM achieved the highest sentiment classification accuracy.
+* Class imbalance handling was critical for successful PII detection.
+
+---
+
 ## Future Enhancements
 
-- Unified prediction pipeline for Intent, Sentiment, and PII analysis
-- Streamlit-based interactive web application
-- Prediction confidence scores
-- Expanded customer support dataset for improved model performance
+* Unified prediction pipeline
+* Streamlit web application
+* Prediction confidence scores
+* Expanded customer support dataset
 
 ---
