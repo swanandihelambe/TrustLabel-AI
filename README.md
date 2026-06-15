@@ -1,184 +1,191 @@
 # TrustLabel AI
 
-A practical NLP and Machine Learning project inspired by a Data Labeling Analyst job simulation, focused on customer support ticket classification, sentiment analysis, and PII detection.
+An NLP-powered customer support analytics system that automatically classifies customer messages by intent, sentiment, and PII (Personally Identifiable Information).
 
-## Objective
-
-Build a system that can:
-
-* Classify customer support messages by intent
-* Detect sentiment
-* Identify PII (Personally Identifiable Information)
-* Assist in label quality review
-
-## Current Progress
-
-### Phase 1: Dataset Creation ✅
-
-* Created a labeled dataset of 125 customer support messages
-* 5 intent categories:
-
-  * Billing
-  * Account
-  * Technical
-  * Security
-  * Subscription
-* Added Intent, Sentiment, and PII labels
+The project was inspired by a Data Labeling Analyst job simulation and focuses on applying Natural Language Processing and Machine Learning techniques to real-world customer support workflows.
 
 ---
 
-### Phase 2: Exploratory Data Analysis (EDA) ✅
+## Features
 
-Performed:
+### Intent Classification
 
-* Dataset overview and quality checks
-* Missing value analysis
-* Intent distribution analysis
-* Sentiment distribution analysis
-* PII distribution analysis
-* Intent vs Sentiment analysis
+Classifies customer messages into:
 
-Key Findings:
+* Billing
+* Account
+* Technical
+* Security
+* Subscription
 
-* Dataset contains 125 labeled support messages
-* Intent classes are balanced (25 examples each)
-* Negative sentiment is the most common class
-* Approximately 12% of messages contain PII
-* Security-related messages show the highest negative sentiment
+### Sentiment Analysis
 
----
+Detects customer sentiment:
 
-### Phase 3: NLP Preprocessing ✅
+* Positive
+* Neutral
+* Negative
 
-Implemented a text preprocessing pipeline:
+### PII Detection
 
-* Converted text to lowercase
-* Removed punctuation and special characters
-* Tokenized messages into individual words
-* Removed English stopwords
-* Generated cleaned token lists for downstream machine learning tasks
+Identifies messages containing personally identifiable information such as:
 
-Example:
-
-Original:
-
-"I was charged twice for my subscription."
-
-Processed Tokens:
-
-['charged', 'twice', 'subscription']
+* Email addresses
+* Phone numbers
+* Sensitive account details
 
 ---
 
-### Phase 4: TF-IDF Feature Engineering ✅
+## Dataset
 
-Implemented TF-IDF (Term Frequency–Inverse Document Frequency) to convert customer support messages into machine-learning-ready numerical features.
+### Original Dataset
 
-Completed:
+* 125 labeled customer support messages
 
-* Converted processed tokens into text format
-* Generated TF-IDF feature vectors
-* Created a feature matrix of 125 messages and 244 unique features
-* Identified the most influential words across the dataset
+### Expanded Dataset
 
-Key Findings:
+* 500 additional labeled messages
 
-* Generated 244 unique text features
-* Frequently occurring support-related terms included:
+### Final Master Dataset
 
-  * account
-  * update
-  * subscription
-  * email
-  * password
-  * refund
+* 625 customer support messages
+* Balanced intent distribution
+* Intent, Sentiment, and PII labels
 
----
+Schema:
 
-### Phase 5: Intent Classification ✅
-
-Built a machine learning model to automatically classify customer support messages into intent categories.
-
-Completed:
-
-* Split dataset into training and testing sets (80/20)
-* Trained a Multinomial Naive Bayes classifier
-* Generated intent predictions on unseen test data
-* Evaluated performance using multiple metrics
-
-Results:
-
-* Test Accuracy: 60%
-* Classification Report generated
-* Confusion Matrix generated
-
-Key Insights:
-
-* Billing and Subscription intents achieved the strongest performance
-* Account and Security intents showed overlap due to similar vocabulary patterns
-* The project now supports automatic intent prediction for customer support messages
+```text
+message
+intent
+sentiment
+pii
+```
 
 ---
 
-### Phase 5A: Model Evaluation & Optimization 🔄
+## Machine Learning Pipeline
 
-Current baseline models have been implemented using Multinomial Naive Bayes.
+### NLP Preprocessing
 
-Current Results:
+* Lowercase conversion
+* Text cleaning
+* Punctuation removal
+* Feature preparation
 
-* Intent Classification Accuracy: 60%
-* Sentiment Classification Accuracy: 56%
+### Feature Engineering
 
-Observations:
+* TF-IDF Vectorization
 
-* Baseline models successfully classify support messages and sentiments.
-* Performance indicates vocabulary overlap between several classes, particularly Account vs Security and Neutral vs Positive sentiments.
-* Additional model experimentation and optimization are planned to improve predictive performance.
+### Models Evaluated
 
-Next Steps in Optimization:
-
-* Compare multiple machine learning algorithms
-* Evaluate Logistic Regression and other classifiers
-* Select the best-performing model for deployment
+* Multinomial Naive Bayes
+* Logistic Regression
+* Linear SVM
 
 ---
 
-## Tech Stack
+## Results
+
+### Intent Classification
+
+| Model               |  Accuracy |
+| ------------------- | --------: |
+| Naive Bayes         |     70.4% |
+| Logistic Regression | **72.8%** |
+| Linear SVM          |     72.0% |
+
+Best Model: **Logistic Regression**
+
+---
+
+### Sentiment Classification
+
+| Model               |  Accuracy |
+| ------------------- | --------: |
+| Naive Bayes         |     85.6% |
+| Logistic Regression |     88.8% |
+| Linear SVM          | **91.2%** |
+
+Best Model: **Linear SVM**
+
+---
+
+### PII Detection
+
+| Model                        |  Accuracy |
+| ---------------------------- | --------: |
+| Logistic Regression          |     87.2% |
+| Balanced Logistic Regression | **98.4%** |
+
+Additional PII Metrics:
+
+* Precision: 100%
+* Recall: 88%
+
+Best Model: **Balanced Logistic Regression**
+
+---
+
+## Key Findings
+
+* Increasing dataset size from 125 to 625 records significantly improved model performance.
+* Logistic Regression achieved the best intent classification performance.
+* Linear SVM achieved the highest sentiment classification accuracy.
+* TF-IDF feature expansion with bigrams did not improve performance.
+* Accuracy alone was misleading for imbalanced PII datasets.
+* Class balancing dramatically improved PII detection quality.
+
+---
+
+## Project Structure
+
+```text
+trustlabel-ai/
+│
+├── data/
+├── docs/
+├── images/
+├── models/
+├── notebooks/
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+## Saved Model Artifacts
+
+```text
+intent_model.pkl
+intent_vectorizer.pkl
+
+sentiment_model.pkl
+sentiment_vectorizer.pkl
+
+pii_model.pkl
+pii_vectorizer.pkl
+```
+
+---
+
+## Technologies Used
 
 * Python
 * Pandas
-* Matplotlib
+* NumPy
 * Scikit-learn
 * NLTK
+* Matplotlib
 * Jupyter Notebook
 
 ---
 
-## Next Steps
+## Future Enhancements
 
-* Model Comparison & Optimization
-* PII Detection System
-* Label Review Assistant
-* Streamlit Application Deployment
+- Unified prediction pipeline for Intent, Sentiment, and PII analysis
+- Streamlit-based interactive web application
+- Prediction confidence scores
+- Expanded customer support dataset for improved model performance
 
 ---
-
-## Project Status
-
-✅ Phase 1: Dataset Creation
-
-✅ Phase 2: Exploratory Data Analysis (EDA)
-
-✅ Phase 3: NLP Preprocessing
-
-✅ Phase 4: TF-IDF Feature Engineering
-
-✅ Phase 5: Intent Classification
-
-🔄 Phase 5A: Model Evaluation & Optimization
-
-⏳ Phase 6: PII Detection
-
-⏳ Phase 7: Label Review Assistant
-
-⏳ Phase 8: Streamlit Application
