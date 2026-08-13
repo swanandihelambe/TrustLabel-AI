@@ -1,0 +1,751 @@
+message,intent,sentiment,pii
+I was charged twice for my subscription.,Billing,Negative,No
+My refund still hasn't arrived.,Billing,Negative,No
+Why was I billed after cancelling?,Billing,Negative,No
+There is an unknown charge on my account.,Billing,Negative,No
+I was charged for a service I never used.,Billing,Negative,No
+My payment failed but money was deducted.,Billing,Negative,No
+I keep getting billed every month even after cancellation.,Billing,Negative,No
+The refund amount is incorrect.,Billing,Negative,No
+Can you check the status of my refund?,Billing,Neutral,No
+Where can I view my invoices?,Billing,Neutral,No
+How long does a refund usually take?,Billing,Neutral,No
+Can you explain this charge on my statement?,Billing,Neutral,No
+I'd like a copy of my latest invoice.,Billing,Neutral,No
+What payment methods do you accept?,Billing,Neutral,No
+When will my next payment be processed?,Billing,Neutral,No
+Can I change my billing cycle?,Billing,Neutral,No
+Thanks for processing my refund so quickly.,Billing,Positive,No
+"The refund has arrived, thank you!",Billing,Positive,No
+I appreciate the help resolving my billing issue.,Billing,Positive,No
+My payment went through successfully.,Billing,Positive,No
+Thanks for explaining the charges clearly.,Billing,Positive,No
+The billing problem has been resolved.,Billing,Positive,No
+My card ending in 4521 was charged twice.,Billing,Negative,Yes
+Please send the invoice to abc@gmail.com.,Billing,Neutral,Yes
+My account number 987654 has a billing issue.,Billing,Negative,Yes
+I can't log in to my account.,Account,Negative,No
+My password reset link isn't working.,Account,Negative,No
+I was locked out of my account unexpectedly.,Account,Negative,No
+I updated my email but it didn't save.,Account,Negative,No
+My profile changes keep disappearing.,Account,Negative,No
+I can't access my account settings.,Account,Negative,No
+The system won't let me update my password.,Account,Negative,No
+My account information is incorrect after the update.,Account,Negative,No
+How do I change my password?,Account,Neutral,No
+Can I update my email address?,Account,Neutral,No
+Where can I edit my profile information?,Account,Neutral,No
+How do I update my phone number?,Account,Neutral,No
+Can I change my username?,Account,Neutral,No
+How do I update my address?,Account,Neutral,No
+Where can I view my account details?,Account,Neutral,No
+Can I merge two accounts?,Account,Neutral,No
+Thanks for helping me recover my account.,Account,Positive,No
+My account update worked perfectly.,Account,Positive,No
+I successfully changed my password.,Account,Positive,No
+"Everything looks correct now, thank you.",Account,Positive,No
+The profile update was quick and easy.,Account,Positive,No
+Thanks for fixing my login issue.,Account,Positive,No
+Please update my email to john.smith@email.com.,Account,Neutral,Yes
+My phone number changed to 9876543210.,Account,Neutral,Yes
+My username is swanandi_123 and I need help accessing my account.,Account,Negative,Yes
+The app crashes every time I open it.,Technical,Negative,No
+My screen freezes when I try to save.,Technical,Negative,No
+The website won't load on my browser.,Technical,Negative,No
+I keep getting an unexpected error message.,Technical,Negative,No
+The app logs me out randomly.,Technical,Negative,No
+The page keeps refreshing by itself.,Technical,Negative,No
+My data disappeared after the update.,Technical,Negative,No
+The search feature is not working anymore.,Technical,Negative,No
+How do I clear the app cache?,Technical,Neutral,No
+What browser is officially supported?,Technical,Neutral,No
+Can I use the app on multiple devices?,Technical,Neutral,No
+Where can I report a bug?,Technical,Neutral,No
+Is maintenance currently in progress?,Technical,Neutral,No
+How do I update to the latest version?,Technical,Neutral,No
+Can you share the system requirements?,Technical,Neutral,No
+Why is the app asking for permissions?,Technical,Neutral,No
+"The latest update fixed my issue, thanks!",Technical,Positive,No
+Everything is working perfectly now.,Technical,Positive,No
+The app runs much faster after the update.,Technical,Positive,No
+Thanks for resolving the bug quickly.,Technical,Positive,No
+The website is working again now.,Technical,Positive,No
+I appreciate the fast technical support.,Technical,Positive,No
+The app crashes when I log in as john.smith@email.com.,Technical,Negative,Yes
+Please investigate this error on account ID 548921.,Technical,Neutral,Yes
+My registered phone number 9876543210 isn't receiving OTPs.,Technical,Negative,Yes
+I keep receiving verification codes I didn't request.,Security,Negative,No
+Someone may have accessed my account.,Security,Negative,No
+I noticed suspicious login activity yesterday.,Security,Negative,No
+My account was locked without warning.,Security,Negative,No
+I think my account has been compromised.,Security,Negative,No
+I received a password reset email I didn't request.,Security,Negative,No
+There was a login attempt from an unknown location.,Security,Negative,No
+My security settings changed without my permission.,Security,Negative,No
+How do I enable two-factor authentication?,Security,Neutral,No
+Where can I review recent login activity?,Security,Neutral,No
+Can I change my security questions?,Security,Neutral,No
+How often should I update my password?,Security,Neutral,No
+Where can I manage trusted devices?,Security,Neutral,No
+Can I receive login alerts by email?,Security,Neutral,No
+How do I check if my account is secure?,Security,Neutral,No
+What security features are available?,Security,Neutral,No
+Two-factor authentication is working great.,Security,Positive,No
+Thanks for helping secure my account.,Security,Positive,No
+The suspicious activity issue has been resolved.,Security,Positive,No
+I appreciate the quick response to my security concern.,Security,Positive,No
+"Everything looks secure now, thank you.",Security,Positive,No
+The account recovery process worked perfectly.,Security,Positive,No
+My email john.smith@email.com received a suspicious login alert.,Security,Negative,Yes
+Please check account ID 874521 for unauthorized activity.,Security,Negative,Yes
+My phone number 9876543210 is not receiving security codes.,Security,Negative,Yes
+My subscription was cancelled without notice.,Subscription,Negative,No
+I was charged after cancelling my subscription.,Subscription,Negative,No
+My premium features disappeared even though I paid.,Subscription,Negative,No
+I can't renew my subscription.,Subscription,Negative,No
+The system says my subscription expired early.,Subscription,Negative,No
+I was downgraded unexpectedly.,Subscription,Negative,No
+My renewal payment failed.,Subscription,Negative,No
+I lost access to subscriber benefits.,Subscription,Negative,No
+How do I cancel my subscription?,Subscription,Neutral,No
+What plans are available?,Subscription,Neutral,No
+Can I upgrade my subscription?,Subscription,Neutral,No
+When does my current plan expire?,Subscription,Neutral,No
+Can I switch to a monthly plan?,Subscription,Neutral,No
+How do I renew my membership?,Subscription,Neutral,No
+What features are included in the premium plan?,Subscription,Neutral,No
+Can I pause my subscription temporarily?,Subscription,Neutral,No
+I successfully renewed my subscription.,Subscription,Positive,No
+The upgrade process was very smooth.,Subscription,Positive,No
+Thanks for helping me renew my plan.,Subscription,Positive,No
+"My subscription is active again, thank you.",Subscription,Positive,No
+Everything worked perfectly during renewal.,Subscription,Positive,No
+I appreciate the quick help with my plan change.,Subscription,Positive,No
+Please update subscription details for account ID 452178.,Subscription,Neutral,Yes
+My email abc@gmail.com is linked to the wrong subscription.,Subscription,Negative,Yes
+The subscription renewal for phone number 9876543210 failed.,Subscription,Negative,Yes
+I tried to change my email but your system says it's already in use by another account. My email address is david_k@outlook.com.,Account,Negative,Yes
+I am extremely worried because my account activity log shows successful logins I didn't make.,Security,Negative,No
+I need assistance changing the billing administrator contact details.,Billing,Neutral,No
+Please clarify if my account is classified as active or inactive.,Account,Neutral,No
+Does the system auto-retry if a transaction is declined by the bank?,Billing,Neutral,No
+The refund I was promised two weeks ago still hasn't arrived.,Billing,Negative,No
+Thanks for making it simple to audit user permissions across our entire team.,Security,Positive,No
+"I love the new dark mode interface, it looks fantastic and works smoothly.",Technical,Positive,No
+Your checkout page is broken and won't let me complete my purchase.,Billing,Negative,No
+What encryption standards are used for storing sensitive files on your servers?,Security,Neutral,No
+Thank you for helping me transition our team seamlessly to the enterprise tier.,Subscription,Positive,No
+Highly appreciate the ease of managing subscription seats for our expanding team.,Subscription,Positive,No
+I am tired of dealing with these constant payment processing glitches.,Billing,Negative,No
+"Appreciate the seamless migration tool, it moved all our files perfectly.",Technical,Positive,No
+Your company refused to honor the promotional subscription price locked during signup.,Subscription,Negative,No
+Please let me know if my corporate billing profile requires re-verification.,Billing,Neutral,No
+An attacker has taken control of my profile and is sending spam to my contacts.,Security,Negative,No
+The account creation page is completely broken and won't let me sign up.,Account,Negative,No
+"The web portal loads instantly now, thanks to the engineering team for optimization.",Technical,Positive,No
+Does the application compress files automatically before uploading them? You can reach me at 07700 900077.,Technical,Neutral,Yes
+Can I combine two different individual subscriptions into a unified family plan?,Subscription,Neutral,No
+Appreciate the instant email alerts whenever a new device authorizes access.,Security,Positive,No
+The print preview layout is broken and clips off half of the report page. You can reach me at +44 20 7946 0192.,Technical,Negative,Yes
+"I cannot remove a compromised device from my authorized list, the option errors out.",Security,Negative,No
+Very pleased with how transparent and clear your invoices are.,Billing,Positive,No
+My subscription was automatically renewed without any prior email notification or alert.,Subscription,Negative,No
+Could you guide me on how to map custom fields using your import wizard?,Technical,Neutral,No
+How can I clear the cache and cookies specifically within your mobile app?,Technical,Neutral,No
+I need assistance setting up the synchronization between the web and mobile apps.,Technical,Neutral,No
+Your technical support rep provided the perfect workaround for our legacy system.,Technical,Positive,No
+Where can I find the option to export all my account data in CSV format?,Account,Neutral,No
+I requested an account deletion weeks ago and my data is still showing up online.,Account,Negative,No
+Your technical team went above and beyond to help us configure our server connection.,Technical,Positive,No
+I am trying to find where the billing history page is hidden in the settings.,Billing,Neutral,No
+"The webhooks are failing to deliver payloads to our server, causing major delays.",Technical,Negative,No
+Received my refund ahead of schedule. Excellent customer care! My account reference number is CUST-2026-M.,Billing,Positive,Yes
+Is there a discount available if we purchase a subscription for over fifty users?,Subscription,Neutral,No
+I am extremely frustrated by the lack of transparency in your pricing.,Billing,Negative,No
+Is there a known service outage affecting the dashboard right now?,Technical,Neutral,No
+Is there a limit to how many profiles can be created under one organization?,Account,Neutral,No
+Your platform is forcing me to use a weak password layout which is a huge security risk.,Security,Negative,No
+"Thanks for fixing the image rendering glitch, our portfolio looks great now.",Technical,Positive,No
+How do I disconnect my Google account from this login?,Account,Neutral,No
+The profile settings page takes forever to load and then just crashes my browser.,Account,Negative,No
+The security settings screen crashes whenever I toggle the two-factor setting.,Security,Negative,No
+Could you verify the creation date of my current user account?,Account,Neutral,No
+I am having trouble finding where the profile edit button is located.,Account,Neutral,No
+I received a login alert from an unfamiliar location and want to verify the IP address.,Security,Neutral,No
+Your system allowed someone else to register an account using my business name.,Account,Negative,No
+Your system randomly changed my profile language to one I don't speak.,Account,Negative,No
+I need a manager to call me regarding a fraudulent charge on my corporate card.,Billing,Negative,No
+The billing department made a huge mistake on our enterprise contract invoice.,Billing,Negative,No
+How do I switch my payment method specifically for the subscription renewal?,Subscription,Neutral,No
+"The password reset link arrived in my inbox within seconds, thank you!",Security,Positive,No
+I am looking for information on how to update my payment details.,Billing,Neutral,No
+Why is it so hard to just update a simple phone number on this platform? You can reach me at 555-921-3042.,Account,Negative,Yes
+I am getting a memory leak warning from my system while running your background agent.,Technical,Negative,No
+Could you check if my account has been fully verified yet?,Account,Neutral,No
+The support team was very understanding when I needed to recover an old handle.,Account,Positive,No
+How do I set up alert thresholds for unusual volume downloads? You can reach me at 07700 900077.,Security,Neutral,Yes
+I keep getting an error saying my account is restricted but nobody will tell me why.,Account,Negative,No
+I am locked in an endless loop of identity verification checks and cannot log in.,Security,Negative,No
+Does the listed price include local sales tax or is that added later?,Billing,Neutral,No
+I'm completely locked out of my account after trying to update my profile details. My account reference number is usr_9482.,Account,Negative,Yes
+"I was confused about the invoice, but your team explained it perfectly. Thanks!",Billing,Positive,No
+Your company refused to refund me for an accidental double click during checkout. My account reference number is ID_77301B.,Billing,Negative,Yes
+Excellent customer support! They helped me secure my compromised profile immediately.,Security,Positive,No
+I am locked out of my account because your system failed to save my updated details.,Account,Negative,No
+"I received a login alert for a device I have never owned, this is alarming.",Security,Negative,No
+How do I upgrade my subscription path from monthly to a biennial arrangement?,Subscription,Neutral,No
+I was penalized with a late fee because your payment gateway was down on the due date.,Billing,Negative,No
+My corporate subscription was suspended due to a glitch on your internal renewal end.,Subscription,Negative,No
+"Your server response times are hovering around ten seconds, which is unacceptable.",Technical,Negative,No
+What happens if a user inputs an incorrect password too many times consecutively?,Security,Neutral,No
+Very satisfied with the value provided in the basic paid subscription plan.,Subscription,Positive,No
+Appreciate the complimentary extension granted to our non-profit organization.,Subscription,Positive,No
+Your portal says my account doesn't exist when I literally logged in yesterday.,Account,Negative,No
+I noticed an unauthorized IP in my access logs; how do I force log out all users?,Security,Neutral,No
+Everything is working perfectly after following your clear troubleshooting steps.,Technical,Positive,No
+What is the procedure for merging two separate user accounts?,Account,Neutral,No
+Thank you for sending over the itemized tax statement so quickly.,Billing,Positive,No
+Shoutout to support for fixing my billing issue in under five minutes.,Billing,Positive,No
+How long does the trial subscription last before it transitions to a paid plan?,Subscription,Neutral,No
+What coding languages are supported by your official SDKs?,Technical,Neutral,No
+I found a backdoor in your integration script that exposes user access tokens.,Security,Negative,No
+When exactly is the next renewal date for my current annual subscription?,Subscription,Neutral,No
+"Is it possible to disable login notifications for known, trusted devices?",Security,Neutral,No
+The invoice link sent to my email leads to a blank 404 page.,Billing,Negative,No
+How can I downgrade my account back to the free tier without losing data?,Subscription,Neutral,No
+How long does it typically take for a processed refund to show up in my bank? My account reference number is ACC-94821.,Billing,Neutral,Yes
+Why am I being forced to store my credit card details on your site?,Billing,Negative,No
+I cannot link my corporate email because your system classifies it as spam.,Account,Negative,No
+The image upload tool fails every single time I try to attach a file.,Technical,Negative,No
+"Thank you for the detailed API documentation, it made development effortless.",Technical,Positive,No
+I am furious that my profile bio was flagged for policy violation when it's completely benign.,Account,Negative,No
+Why is it so difficult to speak to a real person about a financial error?,Billing,Negative,No
+"Updating my profile picture and details was so easy, love the clean interface.",Account,Positive,No
+Thank you for grandfathering our account into the older subscription pricing tier. You can reach me at +44 20 7946 0192.,Subscription,Positive,Yes
+I am deeply concerned about the lack of end-to-end encryption for stored files. My account reference number is #84021A.,Security,Negative,Yes
+I am looking for the option to set up a legacy contact for my account.,Account,Neutral,No
+What is the maximum file size limit for uploading data via the web interface? You can reach me at +1-555-0143.,Technical,Neutral,Yes
+I am receiving persistent login alerts from another country and feel extremely unsafe.,Security,Negative,No
+How can I check the current status of your cloud servers and API response times?,Technical,Neutral,No
+How do I clear the security history log from my main dashboard?,Security,Neutral,No
+I am locked out of my account because of a supposed billing issue that makes no sense.,Billing,Negative,No
+The hardware security key option works flawlessly on your system.,Security,Positive,No
+I'm trying to update my profile but keep getting a vague 'Internal Server Error'.,Account,Negative,No
+Your platform failed to notify me when my account password was changed.,Security,Negative,No
+Could you guide me on how to update my professional title in my profile?,Account,Neutral,No
+Your support agent was highly professional while helping me set up an authenticator app.,Security,Positive,No
+I need to add our company's tax ID number to all future invoices.,Billing,Neutral,No
+An unauthorized user managed to purchase items using my saved corporate profile.,Security,Negative,No
+The system says my payment is overdue but I have proof of transaction right here.,Billing,Negative,No
+Shoutout to the team for making account setup incredibly intuitive.,Account,Positive,No
+What is the maximum length allowed for account passwords on your system?,Security,Neutral,No
+I am stuck on an old broken subscription plan that won't let me upgrade or downgrade.,Subscription,Negative,No
+What specific features are included in the Pro plan versus the Team plan?,Subscription,Neutral,No
+I need to review the terms of service that I accepted during account setup.,Account,Neutral,No
+Where can I download the VAT receipt for my recent purchase?,Billing,Neutral,No
+How can I toggle the hardware acceleration setting inside the graphics menu?,Technical,Neutral,No
+Thanks for the prompt response regarding my payment confirmation.,Billing,Positive,No
+Your API keeps throwing random timeout errors during routine data requests.,Technical,Negative,No
+"The cancellation process forces me to go through ten different pages of surveys, stop this!",Subscription,Negative,No
+I am looking for instructions on how to run the software on a Linux environment.,Technical,Neutral,No
+I am getting a continuous internal server error 500 when opening the dashboard.,Technical,Negative,No
+"The annual discount plan saved our company a lot of money, thank you so much.",Subscription,Positive,No
+The text editor inside the app keeps lagging behind my typing completely.,Technical,Negative,No
+I need urgent help as my business account has been locked due to an administrative bug.,Account,Negative,No
+How do I transfer ownership of this account to another team member?,Account,Neutral,No
+Very pleased with the granular access controls available for project folders.,Security,Positive,No
+Thanks for resolving my locked account issue securely and efficiently. My email address is david_k@outlook.com.,Security,Positive,Yes
+Brilliant support! Thanks for helping me update my credit card details without any hassle.,Billing,Positive,No
+"Fantastic service, the representative fixed my invoice mismatch instantly.",Billing,Positive,No
+The system downgraded my account by mistake and wiped out all our custom dashboards.,Subscription,Negative,No
+Your latest software update completely broke my existing third-party integrations.,Technical,Negative,No
+The invoice generated has the wrong company name and your system won't let me edit it.,Billing,Negative,No
+What ports need to be open to allow connection to your remote database?,Technical,Neutral,No
+I am glad to see your platform takes user privacy and data security so seriously.,Security,Positive,No
+Where do I enter the verification token sent to my backup phone number?,Security,Neutral,No
+I upgraded my subscription package but none of the premium features have unlocked.,Subscription,Negative,No
+Is there a way to hide my profile details from public search engines?,Account,Neutral,No
+How can I download a comprehensive summary of all our historical subscriptions?,Subscription,Neutral,No
+This is the third time I've reached out about this incorrect invoice and no one has fixed it.,Billing,Negative,No
+Your support team closed my account recovery ticket without actually helping me.,Account,Negative,No
+Is it possible to have multiple email addresses linked to one account?,Account,Neutral,No
+How can I request a complete summary of all data stored about my account?,Account,Neutral,No
+Thanks for offering a flexible student discount on your premium subscriptions.,Subscription,Positive,No
+"Your system keeps dropping my connection every two minutes, this is infuriating.",Technical,Negative,No
+Data synchronization between my devices has stopped working entirely.,Technical,Negative,No
+You increased the subscription price drastically without giving any advance notice.,Subscription,Negative,No
+The data sync between devices is lightning fast now. Excellent work!,Technical,Positive,No
+I need to update the contact person listed on our organizational profile. My email address is sara.smith.tech@yahoo.com.,Account,Neutral,Yes
+How do I cancel my subscription before the next automatic billing cycle begins?,Subscription,Neutral,No
+I am seeing text and layouts overlapping massively after the recent UI overhaul. My email address is john.baker99@gmail.com.,Technical,Negative,Yes
+I need assistance configuring IP whitelisting for our administrative portal. My email address is sara.smith.tech@yahoo.com.,Security,Neutral,Yes
+I am unable to remove extra user seats from my subscription to lower the cost.,Subscription,Negative,No
+I am impressed by the speed at which your team handled our security questionnaire.,Security,Positive,No
+I'm grateful for the quick resolution to my payment processing problem.,Billing,Positive,No
+Please clarify if my subscription includes access to advanced API integrations. You can reach me at +44 20 7946 0192.,Subscription,Neutral,Yes
+Exceptional assistance with changing my currency settings.,Billing,Positive,No
+I need to update my phone number for account notifications. My email address is m.jones@protonmail.com.,Account,Neutral,Yes
+What version of the database is required to run this integration smoothly?,Technical,Neutral,No
+The drag-and-drop file uploader is completely dead and does not respond to input.,Technical,Negative,No
+I am unable to install the desktop app because the installer file is corrupted.,Technical,Negative,No
+Could you explain your platform's policy regarding data breaches and notifications?,Security,Neutral,No
+"Thank you for the instant notification about the suspicious login, very reassuring!",Security,Positive,No
+Please help me re-trigger the account verification email.,Account,Neutral,No
+"Thanks for resolving that API bug so quickly, our dev team is thrilled. You can reach me at +44 20 7946 0192.",Technical,Positive,Yes
+I keep getting phishing emails that look exactly like your official communications.,Security,Negative,No
+Our entire corporate network is locked out because of a false positive security rule. My email address is m.jones@protonmail.com.,Security,Negative,Yes
+I cannot change my account ownership because the current admin left the company.,Account,Negative,No
+"Wow, the integration with our CRM worked flawlessly on the first attempt.",Technical,Positive,No
+I am extremely pleased with the exclusive content unlocked via my subscription.,Subscription,Positive,No
+Awesome support! They found a mistake in my favor and refunded me immediately.,Billing,Positive,No
+Is there a discount available for paying multiple months upfront?,Billing,Neutral,No
+I am furious that you suspended my services due to a glitch on your payment end.,Billing,Negative,No
+Your software is throwing an undocumented error code and your documentation is useless. You can reach me at 555-921-3042.,Technical,Negative,Yes
+Could you tell me when the next automatic payment is scheduled?,Billing,Neutral,No
+I am unable to change my password because the security section won't load.,Security,Negative,No
+I cancelled my subscription last month but your company still charged me today!,Subscription,Negative,No
+Is there an official extension available for Google Chrome users?,Technical,Neutral,No
+I am unable to change my country settings which is blocking me from vital features.,Account,Negative,No
+"The automated backup feature saved our progress today, thank you so much!",Technical,Positive,No
+Your support team is ignoring my cancellation request and keeping my account active.,Subscription,Negative,No
+The multi-user subscription plan works perfectly for our small agency.,Subscription,Positive,No
+Your platform charged me even though I closed my account last month!,Billing,Negative,No
+This overcharge is ridiculous and I want it sorted out immediately. My email address is sara.smith.tech@yahoo.com.,Billing,Negative,Yes
+Your subscription terms are completely predatory and misleading to customers.,Subscription,Negative,No
+I am losing money because my account was frozen over an unverified billing glitch.,Billing,Negative,No
+I am getting an error code every time I try to accept an account invitation.,Account,Negative,No
+How can I report a potential security vulnerability found within your web application?,Security,Neutral,No
+Your analytics dashboard is displaying completely inaccurate and broken charts.,Technical,Negative,No
+Thank you for enforcing strong password requirements to keep everyone safe.,Security,Positive,No
+How do I opt out of automatic upgrades for my subscription package?,Subscription,Neutral,No
+Very impressed with the level of control I have over my account settings. My account reference number is ACC-94821.,Account,Positive,Yes
+Could you explain how to interpret the error code 403 on the sync screen?,Technical,Neutral,No
+Please confirm if my payment method was updated successfully.,Billing,Neutral,No
+I've been charged twice for the same service this month. This is unacceptable! My email address is m.jones@protonmail.com.,Billing,Negative,Yes
+I am dealing with a corrupted profile that causes the entire app to glitch out.,Account,Negative,No
+Thanks for resolving my subscription tier mismatch problem within minutes.,Subscription,Positive,No
+The file export functionality is broken and downloads empty corrupted documents.,Technical,Negative,No
+I am looking for a guide on how to deploy this script via Docker containers.,Technical,Neutral,No
+Your app does not prompt for re-authentication when modifying critical security details.,Security,Negative,No
+The automated billing system generated a double subscription charge on my card.,Subscription,Negative,No
+What are the minimum system requirements for running the desktop application?,Technical,Neutral,No
+Your site keeps rejecting my subscription renewal payment for no understandable reason.,Subscription,Negative,No
+Appreciate the quick confirmation regarding my updated account status. My email address is sara.smith.tech@yahoo.com.,Account,Positive,Yes
+Thank you for notifying me before the automatic charge took place. My account reference number is #84021A.,Billing,Positive,Yes
+"The platform is running incredibly smooth today, kudos to the dev team.",Technical,Positive,No
+The self-service account portal resolved my issue in seconds. Fantastic! You can reach me at +1-555-0143.,Account,Positive,Yes
+My two-factor authentication code is being rejected by your system as invalid.,Security,Negative,No
+I am locked out because your authenticator sync broke after the system update.,Security,Negative,No
+"Does my subscription automatically renew, or do I need to authorize it manually?",Subscription,Neutral,No
+The application window resizes itself randomly and elements disappear from view.,Technical,Negative,No
+The trial subscription automatically charged me the full rate without sending an alert.,Subscription,Negative,No
+Someone added an unauthorized backup email address to my account profile. My account reference number is ID_77301B.,Security,Negative,Yes
+Where are the configuration files stored locally on a Windows machine?,Technical,Neutral,No
+How do I apply a promotional voucher to an already active subscription?,Subscription,Neutral,No
+How can I check how many subscription credits are remaining for this month?,Subscription,Neutral,No
+I need to update the billing address listed on my corporate account.,Billing,Neutral,No
+The custom webhook feature is working perfectly for our automation pipeline. My email address is m.jones@protonmail.com.,Technical,Positive,Yes
+I am furious that I am being charged for user seats that have been inactive for months.,Subscription,Negative,No
+You are overcharging me for user seats that I deleted months ago. My email address is m.jones@protonmail.com.,Billing,Negative,Yes
+Someone managed to change my account password without my authorization or consent. My account reference number is #84021A.,Security,Negative,Yes
+I'm so glad your support team managed to recover my old profile data.,Account,Positive,No
+The subscription billing cycle is completely out of sync with my original agreement.,Subscription,Negative,No
+Can I get a PDF copy of my invoice for the month of April?,Billing,Neutral,No
+Great job by the security team for identifying a phishing attempt targeting users.,Security,Positive,No
+I am extremely angry that my account name was changed without my permission.,Account,Negative,No
+Where can I see the breakdown of active user seats under our subscription?,Subscription,Neutral,No
+I want a complete refund for the remaining months of my canceled annual subscription.,Subscription,Negative,No
+Thanks for making it simple to upgrade user tiers during peak project months.,Subscription,Positive,No
+Thanks for the prompt bug fix on the file export module.,Technical,Positive,No
+Thanks to support for helping me choose the perfect plan for my freelance business.,Subscription,Positive,No
+The export data feature worked perfectly and downloaded all my records instantly.,Account,Positive,No
+The session timeout feature is broken and keeps me logged in indefinitely on public PCs.,Security,Negative,No
+I tried to update my card but your site says 'service unavailable'. Fix this now.,Billing,Negative,No
+I am looking for details on your non-profit and educational subscription options.,Subscription,Neutral,No
+Your verification process is broken; I've uploaded my ID three times already.,Account,Negative,No
+How do I update the application to the latest version on a Mac?,Technical,Neutral,No
+Switching from the monthly to the yearly subscription model was incredibly smooth.,Subscription,Positive,No
+Why does my statement show a pending charge from your company?,Billing,Neutral,No
+Changing my registered email address was a breeze. Thank you!,Account,Positive,No
+"The plugin is working exactly as advertised, setup was a breeze.",Technical,Positive,No
+How do I reset the developer API tokens from the dashboard?,Technical,Neutral,No
+"The latest software update fixed the latency issue, the app is running incredibly fast now!",Technical,Positive,No
+I demand an immediate refund for the downtime we experienced last week.,Billing,Negative,No
+I am locked out of my premium workspace because your subscription verification failed.,Subscription,Negative,No
+Where are the privacy and data sharing settings located in the menu?,Account,Neutral,No
+Can I temporarily deactivate my account instead of deleting it permanently?,Account,Neutral,No
+How do I configure the API endpoints to connect with my local server?,Technical,Neutral,No
+Shoutout to the team for making subscription management so transparent and clear.,Subscription,Positive,No
+I cannot change my subscription plan because the system says a modification is pending.,Subscription,Negative,No
+Your platform charged my credit card for a subscription renewal after I removed the card.,Subscription,Negative,No
+"Does canceling my subscription immediately revoke access, or at the end of the term?",Subscription,Neutral,No
+Excellent service! The agent walked me through the account migration step by step.,Account,Positive,No
+I cannot generate a new API key because the generation button returns a blank error.,Technical,Negative,No
+Where do I find the cancellation button inside the subscription settings panel?,Subscription,Neutral,No
+Great job on making the profile management section so accessible.,Account,Positive,No
+I am experiencing massive lag and latency that makes the platform unusable. My account reference number is #84021A.,Technical,Negative,Yes
+I cannot delete my account because the 'Delete' button is completely grayed out.,Account,Negative,No
+I cannot complete the security question form because it keeps throwing a database error. You can reach me at 555-921-3042.,Security,Negative,Yes
+How do I change my default billing currency to Euros?,Billing,Neutral,No
+The mobile app is draining my device battery completely in less than an hour.,Technical,Negative,No
+Is it possible to split the monthly payment across two different credit cards?,Billing,Neutral,No
+"Upgraded to the premium tier today, the feature set is absolutely amazing!",Subscription,Positive,No
+The 'Cancel Subscription' button is completely missing from my settings panel. My account reference number is #84021A.,Subscription,Negative,Yes
+Please explain how your platform handles data isolation for enterprise tenants.,Security,Neutral,No
+The single sign-on system failed and threw an exposed stack trace showing internal variables.,Security,Negative,No
+"Super happy with the auto-billing feature, makes things so much easier.",Billing,Positive,No
+The onboarding checklist is stuck and won't let me access my main dashboard.,Account,Negative,No
+Can you clarify if your mobile application uses biometric data locally or on servers?,Security,Neutral,No
+The onboarding flow for new users is top-notch. Keep it up!,Account,Positive,No
+The password reset link you sent me is expired or invalid every single time I click it.,Security,Negative,No
+My payment failed multiple times but the funds were still deducted from my account.,Billing,Negative,No
+How do I set up a custom webhook to trigger on specific data updates? You can reach me at +44 20 7946 0192.,Technical,Neutral,Yes
+The screen is totally frozen on a white loading spinner and nothing happens.,Technical,Negative,No
+"Everything is up and running perfectly now, thanks for the solid engineering.",Technical,Positive,No
+Thanks for confirming that the unusual activity alert was a false alarm.,Security,Positive,No
+What should I do if I suspect an old employee still has cached access credentials?,Security,Neutral,No
+Is it possible to change the primary account administrator? You can reach me at 07700 900077.,Account,Neutral,Yes
+The account verification process took less than a minute. Great work.,Account,Positive,No
+I appreciate the detailed security log history available in the user dashboard.,Security,Positive,No
+I suspect my API keys were leaked because of an unencrypted transmission on your end. My account reference number is usr_9482.,Security,Negative,Yes
+Where can I find the setting to require periodic password updates for my team?,Security,Neutral,No
+Where is the option to set up custom session timeout limits for security?,Security,Neutral,No
+I discovered that our private company data has been leaked publicly due to your glitch.,Security,Negative,No
+The system auto-renewed me against my wishes and took my money.,Billing,Negative,No
+The formatting of imported CSV files is completely garbled by your system.,Technical,Negative,No
+Does the platform support multi-threading for faster data processing?,Technical,Neutral,No
+Why did my bill double without any prior notice or explanation?,Billing,Negative,No
+I was charged a hidden fee that was never mentioned during sign-up. You can reach me at +61 2 9374 2211.,Billing,Negative,Yes
+Your web application is completely unresponsive on mobile browsers.,Technical,Negative,No
+The process of scaling up our API subscription tier was completely seamless.,Subscription,Positive,No
+Is there a way to roll back to the previous software version if needed?,Technical,Neutral,No
+What happens to my data if a scheduled payment fails? My email address is david_k@outlook.com.,Billing,Neutral,Yes
+The subscription reactivation process took just one click. Fantastic user experience!,Subscription,Positive,No
+"The verification code email takes over thirty minutes to arrive, making it expire.",Security,Negative,No
+The profile migration went off without a single hitch. Wonderful!,Account,Positive,No
+Could you check if my payment went through? I haven't received a receipt.,Billing,Neutral,No
+Thanks for clearing up the confusion about my account creation date.,Account,Positive,No
+How can I update my profile region and country code?,Account,Neutral,No
+How can I verify that my connection to your servers is fully encrypted?,Security,Neutral,No
+Where can I find your company's latest security compliance and SOC 2 reports?,Security,Neutral,No
+Your support agent was incredibly polite when helping me resolve my overcharge.,Billing,Positive,No
+Where do I find the documentation for your platform's GraphQL API? My account reference number is usr_9482.,Technical,Neutral,Yes
+My profile information keeps reverting back to old data every time I save it.,Account,Negative,No
+"Thanks for implementing passkey support, it makes logging in secure and fast.",Security,Positive,No
+"Thank you for reversing that duplicate charge so quickly, amazing service!",Billing,Positive,No
+The system failed to save my progress and I just lost three hours of hard work!,Technical,Negative,No
+The search bar functionality is completely broken and returns zero results. My account reference number is ID_77301B.,Technical,Negative,Yes
+Your billing portal is incredibly confusing and caused me to overpay.,Billing,Negative,No
+Your platform is forcing me to fill out unnecessary personal details to continue.,Account,Negative,No
+Please guide me on how to restrict download permissions for specific user roles.,Security,Neutral,No
+I was charged for a premium subscription renewal despite submitting a cancellation form.,Subscription,Negative,No
+Why did your system allow a password change without requiring the old password first? You can reach me at 555-921-3042.,Security,Negative,Yes
+"The account recovery process was secure yet straightforward, brilliant design.",Security,Positive,No
+I want to change the profile display layout but cannot find the option.,Account,Neutral,No
+I need a manual invoice generated for our procurement team.,Billing,Neutral,No
+How do I change the default storage directory for downloaded files? My email address is david_k@outlook.com.,Technical,Neutral,Yes
+My card issuer blocked your charge because your billing system looks suspicious.,Billing,Negative,No
+How do I handle rate limiting issues when pulling large amounts of data?,Technical,Neutral,No
+Where can I view the terms and conditions of my auto-renewing subscription?,Subscription,Neutral,No
+The refund just cleared in my account. I appreciate the swift help.,Billing,Positive,No
+Where can I find documentation outlining the differences between your plans?,Subscription,Neutral,No
+The price on the website does not match what I was actually billed.,Billing,Negative,No
+"The app's memory usage has dropped significantly, runs great on my older laptop.",Technical,Positive,No
+Can I pay for an annual subscription using an international corporate check?,Subscription,Neutral,No
+I have been trying to cancel this account subscription for three days straight without success.,Subscription,Negative,No
+Please check if my subscription cancellation request went through successfully.,Subscription,Neutral,No
+How do I check the list of currently active sessions and connected devices?,Security,Neutral,No
+"I love the bonus features included in the Pro subscription package, totally worth it.",Subscription,Positive,No
+Can I transfer my active subscription to a different user profile?,Subscription,Neutral,No
+I received a payment failure notice but my card details seem correct.,Billing,Neutral,No
+The discount was applied correctly on my last bill. Thank you so much.,Billing,Positive,No
+The video playback feature is extremely glitchy and buffers constantly.,Technical,Negative,No
+Can I change my username or is it permanently locked after registration?,Account,Neutral,No
+I am stuck in an infinite redirect loop whenever I try to access the workspace.,Technical,Negative,No
+"Can I use this software offline, or does it require a continuous internet connection?",Technical,Neutral,No
+The renewal process was effortless and handled completely automatically. Great job! My email address is david_k@outlook.com.,Subscription,Positive,Yes
+Your system deleted my custom profile settings during the recent platform update. You can reach me at +61 2 9374 2211.,Account,Negative,Yes
+The account dashboard is completely blank and none of my details are visible. My account reference number is ACC-94821.,Account,Negative,Yes
+I noticed a slight discrepancy in the tax calculation on my latest statement.,Billing,Neutral,No
+I feel very safe using your platform thanks to your clear encryption standards. My email address is sara.smith.tech@yahoo.com.,Security,Positive,Yes
+Your enterprise tier pricing is completely absurd compared to what features work.,Subscription,Negative,No
+Is it possible to upgrade only specific user profiles within our organizational team?,Subscription,Neutral,No
+How do I add five additional user seats to my existing corporate subscription? My email address is m.jones@protonmail.com.,Subscription,Neutral,Yes
+I was charged for an entire year instead of the monthly plan I selected.,Billing,Negative,No
+How can I check which credit card is currently set as primary?,Billing,Neutral,No
+Highly impressed by how professional the financial support team is.,Billing,Positive,No
+How do I apply a referral credit to my upcoming invoice?,Billing,Neutral,No
+How can I adjust the refresh rate of the live data feed? My account reference number is ID_77301B.,Technical,Neutral,Yes
+"The application keeps crashing immediately upon launch, I cannot do any work.",Technical,Negative,No
+I cannot access my billing history because the page throws an error every time.,Billing,Negative,No
+Your company's data handling practices seem completely unsecure and reckless.,Security,Negative,No
+Is it possible to temporarily pause my subscription for a couple of months?,Subscription,Neutral,No
+The software patch installed perfectly and solved all our synchronization errors. My account reference number is ID_77301B.,Technical,Positive,Yes
+The data migration wizard crashed halfway through and left our system in a broken state.,Technical,Negative,No
+Highly impressed by the uptime stability over the past few months.,Technical,Positive,No
+This technical glitch is blocking our entire team from meeting an absolute deadline.,Technical,Negative,No
+I am trying to update my company name in the account settings page.,Account,Neutral,No
+Your desktop client is hogging 100% of my CPU and freezing my operating system.,Technical,Negative,No
+The system automatically upgraded my subscription tier without my explicit authorization. My email address is m.jones@protonmail.com.,Subscription,Negative,Yes
+I need to change the primary email address associated with my profile.,Account,Neutral,No
+I am dealing with a broken subscription portal that shows completely wrong usage data.,Subscription,Negative,No
+Are there any penalties or fees for canceling a subscription midway through the year?,Subscription,Neutral,No
+I'm being billed for premium features that aren't even working on my profile.,Billing,Negative,No
+Could you provide the IP addresses that need to be whitelisted for our firewall?,Technical,Neutral,No
+Does your platform support Single Sign-On integration via SAML or OKTA? You can reach me at +61 2 9374 2211.,Security,Neutral,Yes
+"Great job on the new desktop client, the performance improvement is night and day.",Technical,Positive,No
+Please explain how to enable debug mode in the application settings.,Technical,Neutral,No
+How do I switch my 2FA method from SMS verification to an authenticator app?,Security,Neutral,No
+I am furious that my account was suspended for 'suspicious activity' when it was just me.,Security,Negative,No
+Your security system is completely blocking our office IP address by mistake. My account reference number is usr_9482.,Security,Negative,Yes
+I cannot disable SMS 2FA even though I no longer have access to that phone number.,Security,Negative,No
+I'm experiencing an issue where my custom settings are wiped every time I log out.,Technical,Negative,No
+Thanks for confirming that my account deletion request has been finalized.,Account,Positive,No
+Can you please remove my old expired Visa card from the billing section? You can reach me at +1-555-0143.,Billing,Neutral,Yes
+I need to modify the time zone settings on my profile.,Account,Neutral,No
+Super impressed by how stable the mobile app has been since the last release. My email address is m.jones@protonmail.com.,Technical,Positive,Yes
+Your system keeps rejecting my profile picture upload for no logical reason.,Account,Negative,No
+I am losing business access because my team subscription dropped unexpectedly overnight.,Subscription,Negative,No
+I am very pleased with how secure and well-managed my user profile feels.,Account,Positive,No
+What forms of payment do you accept for the annual plan? You can reach me at +44 20 7946 0192.,Billing,Neutral,Yes
+The data export link you sent me results in a broken file that won't open.,Account,Negative,No
+How do I configure role-based access control for external contractors?,Security,Neutral,No
+I want to cancel my plan immediately but your system keeps throwing an error message.,Subscription,Negative,No
+The automated backup failed last night and there is no error explanation given.,Technical,Negative,No
+Can I use a physical YubiKey for logging into my account?,Security,Neutral,No
+This subscription error has completely halted our operations and caused massive delays.,Subscription,Negative,No
+How do I link my social media accounts to this profile?,Account,Neutral,No
+I was mistakenly downgraded to the free tier even though my subscription is paid for.,Subscription,Negative,No
+Is there an option to automate data backups on a weekly basis?,Technical,Neutral,No
+The subscription dashboard provides an excellent overview of our current usage limits.,Subscription,Positive,No
+I am incredibly frustrated by the lack of clear subscription tier breakdown.,Subscription,Negative,No
+I need information on the enterprise subscription plans and custom pricing.,Subscription,Neutral,No
+I keep getting an 'Access Denied' error even though I have full admin privileges.,Technical,Negative,No
+The currency conversion rate you applied is completely predatory.,Billing,Negative,No
+Super happy with the transparent pricing structure on your subscription page.,Subscription,Positive,No
+The security update was installed smoothly without interrupting my workflow.,Security,Positive,No
+Can someone explain the line item labeled 'overage fees' on my bill?,Billing,Neutral,No
+I need to update my security questions as I have forgotten the answers.,Security,Neutral,No
+I need to check if my account data was affected by any recent security incidents. My account reference number is ACC-94821.,Security,Neutral,Yes
+Your platform makes it intentionally confusing and difficult to cancel a subscription.,Subscription,Negative,No
+Where do I go to change my language preferences inside the portal?,Account,Neutral,No
+How do I update the security contact person for our corporate organization?,Security,Neutral,No
+Really happy with the new profile customization features added recently.,Account,Positive,No
+The system won't let me remove a team member from my corporate account roster.,Account,Negative,No
+The fields in the profile edit section are overlapping and impossible to click.,Account,Negative,No
+I want to dispute a charge on my account from yesterday.,Billing,Negative,No
+I want to remove my personal details but the app forces me to keep fields filled.,Account,Negative,No
+How can I enable two-factor authentication for all sub-accounts on my team?,Security,Neutral,No
+Does this application support integration with third-party automation tools? My account reference number is usr_9482.,Technical,Neutral,Yes
+Can I change the date on which my monthly subscription auto-renews?,Subscription,Neutral,No
+"Is tax included in the listed monthly subscription price, or added on top?",Subscription,Neutral,No
+Could you provide a breakdown of the processing fees applied here?,Billing,Neutral,No
+"Every time I try to upgrade my subscription, the page completely freezes at checkout.",Subscription,Negative,No
+What is the grace period if a subscription renewal payment is delayed?,Subscription,Neutral,No
+I need to update my profile biography but it keeps getting cut off.,Account,Neutral,No
+Your verification process is so convoluted that it's preventing legitimate access.,Security,Negative,No
+Thanks for making it simple to transfer account ownership to my colleague.,Account,Positive,No
+I am trying to generate a secure backup code in case I lose access to my phone.,Security,Neutral,No
+The payment update screen is very user-friendly now. Thanks!,Billing,Positive,No
+I would like to request an extension on my payment due date.,Billing,Neutral,No
+I am locked out of my account due to a suspected breach and need immediate access!,Security,Negative,No
+Your system automatically upgraded me and stole funds from my connected PayPal.,Billing,Negative,No
+Your platform is completely incompatible with standard enterprise firewalls.,Technical,Negative,No
+My account summary displays incorrect usage statistics that are totally wrong.,Account,Negative,No
+The single sign-on integration was set up flawlessly by our IT group.,Security,Positive,No
+Your documentation on data compliance and security measures is excellent.,Security,Positive,No
+Very impressed by the continuous stream of new features added to our subscription.,Subscription,Positive,No
+How do I opt out of promotional communications in my account?,Account,Neutral,No
+I cannot connect to the database because of a broken SSL handshake error on your end.,Technical,Negative,No
+Is there a way to receive billing alerts on a secondary email address?,Billing,Neutral,No
+"The account creation confirmation email is taking hours to arrive, this is ridiculous. You can reach me at +1-555-0143.",Account,Negative,Yes
+Your billing system keeps rejecting my perfectly valid credit card.,Billing,Negative,No
+The plugin is causing my entire website to crash and display a fatal error.,Technical,Negative,No
+How do I export the diagnostic report to send over to your technical team?,Technical,Neutral,No
+Your security team is completely ignoring my report about a critical vulnerability.,Security,Negative,No
+"Thanks for validating my promotional voucher, worked perfectly.",Billing,Positive,No
+Thank you for notifying me well in advance of my upcoming subscription renewal.,Subscription,Positive,No
+Can you tell me how long you retain user data after an account is closed?,Account,Neutral,No
+Thank you for helping me review my active sessions and terminate old devices.,Security,Positive,No
+I tried to merge my accounts and now all of my historical data is missing!,Account,Negative,No
+What happens to my uploaded files if I decide to cancel my premium subscription?,Subscription,Neutral,No
+"Every time I try to save my new profile settings, the webpage freezes entirely.",Account,Negative,No
+Please send the monthly invoice directly to our accounting department email.,Billing,Neutral,No
+"I cannot unlink my Facebook profile from this account, the button does nothing.",Account,Negative,No
+I keep getting annoying popup alerts to upgrade my subscription while using the app.,Subscription,Negative,No
+Why am I forced to contact support via email just to cancel a simple subscription?,Subscription,Negative,No
+You have deactivated my account by mistake and I need access immediately for work.,Account,Negative,No
+"Your system keeps sending my cleartext password in email notifications, stop this!",Security,Negative,No
+I love how easy it is to switch between personal and business profiles.,Account,Positive,No
+Your support team is ignoring my requests to reverse this accidental charge.,Billing,Negative,No
+Your system forced me into an annual commitment when I clearly selected monthly.,Subscription,Negative,No
+I cannot update my phone number because the confirmation code never arrives.,Account,Negative,No
+Your platform is holding my data hostage unless I upgrade to a more expensive tier.,Subscription,Negative,No
+Where can I view the audit trails for administrative configuration changes?,Security,Neutral,No
+I keep getting spammy payment failure emails even though my subscription is active.,Billing,Negative,No
+The transition between the trial period and the paid tier was perfectly seamless.,Subscription,Positive,No
+The administrative audit trail is missing records for the days we were attacked. You can reach me at +61 2 9374 2211.,Security,Negative,Yes
+Great experience with the billing team. They waived the late fee for me.,Billing,Positive,No
+I need assistance changing our subscription administrator billing contact. You can reach me at 555-921-3042.,Subscription,Neutral,Yes
+The onboarding benefits provided with the Business package are outstanding.,Subscription,Positive,No
+Please assist me in changing my account type from personal to creator.,Account,Neutral,No
+The two-factor authentication setup was incredibly seamless and easy to follow.,Security,Positive,No
+Where can I locate the error logs generated by the system after a crash?,Technical,Neutral,No
+The user dashboard is beautiful and makes managing my data very simple.,Account,Positive,No
+"The software handles heavy data loads without any lag now, outstanding job.",Technical,Positive,No
+I am being billed for a subscription that I never signed up for or authorized.,Subscription,Negative,No
+Is there a way to enforce password complexity rules at the organizational level?,Security,Neutral,No
+How do I revoke API access tokens for an external application I no longer use? My account reference number is #84021A.,Security,Neutral,Yes
+Your system let an unauthorized user bypass my security settings entirely.,Security,Negative,No
+Thanks for helping me merge my two accounts so seamlessly! My account reference number is ID_77301B.,Account,Positive,Yes
+The notification system is broken and I am not receiving critical system alerts.,Technical,Negative,No
+Really appreciate the billing department's flexibility during my company's transition.,Billing,Positive,No
+The biometric login integration works perfectly on my mobile device.,Security,Positive,No
+Could you confirm if this feature is compatible with iOS 15 and above?,Technical,Neutral,No
+Thank you for clear instructions on how to update my account preferences.,Account,Positive,No
+Thank you for helping me correct the spelling of my name on the profile.,Account,Positive,No
+Is a bank wire transfer an acceptable method for high-tier accounts?,Billing,Neutral,No
+Thanks for confirming my transaction went through successfully. You can reach me at 07700 900077.,Billing,Positive,Yes
+The billing dashboard is incredibly easy to navigate and understand.,Billing,Positive,No
+The developer dashboard is extremely well-designed and intuitive.,Technical,Positive,No
+I really appreciate the robust security protocols you have in place to protect our data.,Security,Positive,No
+Can I prepay for the next six months in advance? You can reach me at 555-921-3042.,Billing,Neutral,Yes
+I encountered a critical bug that deletes historical records when modifying categories.,Technical,Negative,No
+What are the storage limits associated with the entry-level subscription tier?,Subscription,Neutral,No
+I cannot access features I previously paid for because you restructured the tiers.,Subscription,Negative,No
+How do I verify the authenticity of an official email claiming to be from your team?,Security,Neutral,No
+Where do I enter a promo code before finalizing the check out?,Billing,Neutral,No
+Your platform does not support modern security practices like hardware keys.,Security,Negative,No
+You guys charged my account without my authorization. This is illegal.,Billing,Negative,No
+Super fast response from support when I couldn't find my account details.,Account,Positive,No
+How can I completely delete my account and remove all personal information?,Account,Neutral,No
+What are the requirements for a valid username on your platform?,Account,Neutral,No
+I am seeing another user's personal dashboard data when I log into my own account!,Security,Negative,No
+The transition to the new payment gateway went smoothly. Great job!,Billing,Positive,No
+Can I change the billing cycle from the 1st of the month to the 15th?,Billing,Neutral,No
+What is the process for requesting a complete reset of my account password?,Security,Neutral,No
+What is the weather like today?,Out-of-Scope,Neutral,No
+Will it rain this afternoon?,Out-of-Scope,Neutral,No
+Is it going to be sunny tomorrow?,Out-of-Scope,Neutral,No
+The weather is really pleasant today.,Out-of-Scope,Positive,No
+The heat today is unbearable.,Out-of-Scope,Negative,No
+What is the capital of France?,Out-of-Scope,Neutral,No
+How many planets are in the solar system?,Out-of-Scope,Neutral,No
+What is the largest ocean on Earth?,Out-of-Scope,Neutral,No
+Can you explain photosynthesis?,Out-of-Scope,Positive,No
+Who was the first person to walk on the moon?,Out-of-Scope,Negative,No
+How do I make pasta at home?,Out-of-Scope,Neutral,No
+What ingredients do I need for pancakes?,Out-of-Scope,Neutral,No
+What is a good recipe for vegetable soup?,Out-of-Scope,Neutral,No
+I love homemade pizza.,Out-of-Scope,Positive,No
+My cake came out completely burnt.,Out-of-Scope,Negative,No
+How do I plan a trip to Goa?,Out-of-Scope,Neutral,No
+What are some places to visit in Mumbai?,Out-of-Scope,Neutral,No
+What should I pack for a weekend trip?,Out-of-Scope,Neutral,No
+I am excited about my vacation next month.,Out-of-Scope,Positive,No
+My flight was exhausting and uncomfortable.,Out-of-Scope,Negative,No
+What is a good movie to watch tonight?,Out-of-Scope,Neutral,No
+Can you recommend a comedy series?,Out-of-Scope,Neutral,No
+Who is the singer of this song?,Out-of-Scope,Neutral,No
+I really enjoyed that movie.,Out-of-Scope,Positive,No
+The ending of the show was disappointing.,Out-of-Scope,Negative,No
+Who won the cricket match yesterday?,Out-of-Scope,Neutral,No
+When is the next football game?,Out-of-Scope,Neutral,No
+Which team has won the most World Cups?,Out-of-Scope,Neutral,No
+I love watching cricket.,Out-of-Scope,Positive,No
+That was a terrible match to watch.,Out-of-Scope,Negative,No
+Tell me a joke.,Out-of-Scope,Neutral,No
+"Good morning, how are you?",Out-of-Scope,Neutral,No
+What are you doing today?,Out-of-Scope,Neutral,No
+I am feeling great today.,Out-of-Scope,Positive,No
+I had a really bad day.,Out-of-Scope,Negative,No
+How can I improve my study habits?,Out-of-Scope,Neutral,No
+What is the best way to prepare for an exam?,Out-of-Scope,Neutral,No
+Can you explain the difference between AI and ML?,Out-of-Scope,Neutral,No
+I am happy with my exam results.,Out-of-Scope,Positive,No
+I am worried about my upcoming exam.,Out-of-Scope,Negative,No
+What are some good Python projects for beginners?,Out-of-Scope,Neutral,No
+How does a neural network work?,Out-of-Scope,Neutral,No
+What is the difference between SQL and NoSQL?,Out-of-Scope,Neutral,No
+I really enjoy programming in Python.,Out-of-Scope,Positive,No
+My code keeps giving me errors and it is frustrating.,Out-of-Scope,Negative,No
+How can I start exercising regularly?,Out-of-Scope,Neutral,No
+What are some healthy vegetarian meals?,Out-of-Scope,Neutral,No
+How many steps should I walk in a day?,Out-of-Scope,Neutral,No
+I feel energetic after my workout.,Out-of-Scope,Positive,No
+I am exhausted after today's workout.,Out-of-Scope,Negative,No
+What is a good book to read?,Out-of-Scope,Neutral,No
+Who wrote Harry Potter?,Out-of-Scope,Neutral,No
+Can you recommend a mystery novel?,Out-of-Scope,Neutral,No
+I absolutely loved the book I finished yesterday.,Out-of-Scope,Positive,No
+The book was boring and difficult to finish.,Out-of-Scope,Negative,No
+How do I grow a small plant at home?,Out-of-Scope,Neutral,No
+Which plants are easy to grow indoors?,Out-of-Scope,Neutral,No
+What is the best time to water plants?,Out-of-Scope,Neutral,No
+My garden looks beautiful this year.,Out-of-Scope,Positive,No
+The plants in my garden are dying.,Out-of-Scope,Negative,No
+What is the best laptop for students?,Out-of-Scope,Neutral,No
+Which phone has the best camera?,Out-of-Scope,Neutral,No
+How much RAM does a typical laptop need?,Out-of-Scope,Neutral,No
+I really like my new headphones.,Out-of-Scope,Positive,No
+My old laptop is extremely slow.,Out-of-Scope,Negative,No
+What is the meaning of the word resilience?,Out-of-Scope,Neutral,No
+Can you help me learn a new language?,Out-of-Scope,Neutral,No
+What is the difference between affect and effect?,Out-of-Scope,Neutral,No
+I am enjoying learning German.,Out-of-Scope,Positive,No
+I am struggling to remember new vocabulary.,Out-of-Scope,Negative,No
+What causes a rainbow?,Out-of-Scope,Neutral,No
+Why does the sky change color at sunset?,Out-of-Scope,Neutral,No
+What time does the sun rise tomorrow?,Out-of-Scope,Neutral,No
+The sunset looked beautiful yesterday.,Out-of-Scope,Positive,No
+The rain ruined my outdoor plans.,Out-of-Scope,Negative,No
+How can I decorate my room?,Out-of-Scope,Neutral,No
+What color is best for a bedroom?,Out-of-Scope,Neutral,No
+Can you suggest some simple DIY decorations?,Out-of-Scope,Neutral,No
+I love the new furniture in my room.,Out-of-Scope,Positive,No
+My room looks messy and depressing.,Out-of-Scope,Negative,No
+What are some good career options after graduation?,Out-of-Scope,Neutral,No
+How should I prepare for an interview?,Out-of-Scope,Neutral,No
+What skills are useful for a data analyst?,Out-of-Scope,Neutral,No
+I am excited about starting my new job.,Out-of-Scope,Positive,No
+I am unhappy with my current job.,Out-of-Scope,Negative,No
+What is a good way to save money?,Out-of-Scope,Neutral,No
+How does compound interest work?,Out-of-Scope,Neutral,No
+What is the difference between saving and investing?,Out-of-Scope,Neutral,No
+I am happy that I reached my savings goal.,Out-of-Scope,Positive,No
+My expenses have become difficult to manage.,Out-of-Scope,Negative,No
+Can you suggest a fun weekend activity?,Out-of-Scope,Neutral,No
+What are some indoor activities for a rainy day?,Out-of-Scope,Neutral,No
+Where can I go for a short weekend trip?,Out-of-Scope,Neutral,No
+I had an amazing weekend with my friends.,Out-of-Scope,Positive,No
+My weekend was boring and uneventful.,Out-of-Scope,Negative,No
+What is the best way to learn photography?,Out-of-Scope,Neutral,No
+Which camera is good for beginners?,Out-of-Scope,Neutral,No
+How does exposure work in photography?,Out-of-Scope,Neutral,No
+I took some beautiful photographs today.,Out-of-Scope,Positive,No
+My photos turned out blurry.,Out-of-Scope,Negative,No
+Can you suggest some music for studying?,Out-of-Scope,Neutral,No
+Who is the singer of this song?,Out-of-Scope,Neutral,No
+What is the difference between jazz and blues?,Out-of-Scope,Neutral,No
+This song makes me really happy.,Out-of-Scope,Positive,No
+I cannot stand this song.,Out-of-Scope,Negative,No
+What are some interesting places to visit in India?,Out-of-Scope,Neutral,No
+What is the best season to visit Kerala?,Out-of-Scope,Neutral,No
+How long does it take to travel from Pune to Mumbai?,Out-of-Scope,Neutral,No
+I had an amazing trip to Jaipur.,Out-of-Scope,Positive,No
+The traffic during my trip was terrible.,Out-of-Scope,Negative,No
+Can you explain how electric vehicles work?,Out-of-Scope,Neutral,No
+What is renewable energy?,Out-of-Scope,Neutral,No
+How does solar power generate electricity?,Out-of-Scope,Neutral,No
+I really like the design of electric cars.,Out-of-Scope,Positive,No
+The traffic today was extremely frustrating.,Out-of-Scope,Negative,No
+What is a good hobby to start?,Out-of-Scope,Neutral,No
+How can I learn to play guitar?,Out-of-Scope,Neutral,No
+What are some relaxing hobbies?,Out-of-Scope,Neutral,No
+I am having a wonderful time learning to paint.,Out-of-Scope,Positive,No
+I am frustrated because I cannot draw well.,Out-of-Scope,Negative,No
+My email address is example@gmail.com and I want a recipe for pasta.,Out-of-Scope,Neutral,Yes
+You can reach me at 9876543210 if you need to discuss the weather.,Out-of-Scope,Neutral,Yes
+My name is Alex Smith and I want to know who won the cricket match.,Out-of-Scope,Neutral,Yes
+I live at 123 Example Street and I need a movie recommendation.,Out-of-Scope,Neutral,Yes
+My email is alex@example.com and I am looking for travel ideas.,Out-of-Scope,Neutral,Yes
