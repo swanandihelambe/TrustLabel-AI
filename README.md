@@ -1,5 +1,7 @@
 # TrustLabel AI
 
+### https://github.com/swanandihelambe/TrustLabel-AI
+
 **TrustLabel AI** is an NLP-based customer support analytics system that analyzes customer messages across three dimensions:
 
 * **Intent Classification** — identifies the type of customer request.
